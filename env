@@ -1,0 +1,5 @@
+POSTGRES_DB=viewdb
+POSTGRES_USER=viewuser
+POSTGRES_PASSWORD=viewpass
+DB_SERVICE=postgres
+DB_PORT=5432

@@ -1,0 +1,16 @@
+{% load news_tags %}
+{% comment %}
+<!--suppress HtmlUnknownTarget -->
+<div class="list-group">
+    {% get_list_categories as categories %}
+    {% for item in categories %}
+    <!--suppress HtmlUnknownTarget, HtmlUnknownTarget -->
+    <a href="{{item.category.get.absolute_url}}" class="list-group-item list-group-item-action">
+        {{ item.title }}</a>
+    {% endfor %}
+</div>
+
+<br>
+{% endcomment %}
+
+{% show_categories %}

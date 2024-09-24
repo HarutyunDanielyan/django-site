@@ -1,0 +1,73 @@
+# Compiled Python files
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environment directories
+venv/
+.env/
+.virtualenv/
+
+# IDE configuration files
+.idea/
+.vscode/
+*.iml
+
+# Log files and database files
+*.log
+*.sqlite3
+
+# Directory for test reports and temporary files used for testing
+test-reports/
+
+# Temporary dev-tool files
+pdm.lock
+poetry.lock
+# Directory for project dependencies
+.pip/
+.dist/
+*.egg-info/
+.eggs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Scripts and batch files for project management
+*.sh
+*.bat
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Package files
+*.egg
+*.deb
+*.rpm
+*.tar.gz
+*.whl
+
+# System files
+*.bak
+*.swp
+*~
+
+# Pytest cache directories and files
+.cache/
+.pytest_cache/
+
+# MyPy cache directories and files
+.mypy_cache/
+
+# Local configuration files
+*.local
+*.env.local
+.env
+
+# Target folders
+target/
+build/
+dist/
+
+# Microsoft Office temporary files
+~$*
