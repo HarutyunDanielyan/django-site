@@ -21,7 +21,7 @@
 
 ### Локальный запуск
 
-**Для пользователей Windows:**  
+**Для пользователей Windows:**
 Обязательно выполните следующую команду, иначе файл `start.sh` при клонировании будет поврежден:
 
 ```
@@ -29,36 +29,36 @@ git config --global core.autocrlf false
 ```
 
 1. **Клонируйте репозиторий с GitHub:**
-    ```
-    git clone https://github.com/HarutyunDanielyan/django-site.git && cd django-sites
-    ```
 
+   ```
+   git clone https://github.com/HarutyunDanielyan/django-site.git && cd django-sites
+   ```
 2. **Создайте и активируйте виртуальное окружение:**
-    - Если у вас **Linux/macOS**:
-        ```
-        python -m venv venv && source venv/bin/activate
-        ```
-    - Если у вас **Windows**:
-        ```
-        python -m venv venv && source venv/Scripts/activate
-        ```
 
+   - Если у вас **Linux/macOS**:
+     ```
+     python -m venv venv && source venv/bin/activate
+     ```
+   - Если у вас **Windows**:
+     ```
+     python -m venv venv && source venv/Scripts/activate
+     ```
 3. **Установите все необходимые зависимости из файла `requirements.txt`:**
-    ```
-    python -m pip install --upgrade pip && pip install -testsite/requirements.txt
-    ```
 
+   ```
+   python -m pip install --upgrade pip && pip install -testsite/requirements.txt
+   ```
 4. **Выполните миграции, создайте суперпользователя (потребуется ввод персональных данных) и запустите приложение:**
-    ```
-    cd yatube && \
-    python manage.py makemigrations && \
-    python manage.py migrate && \
-    python manage.py prepare_load_data && \
-    python manage.py loaddata dump.json && \
-    python manage.py createsuperuser && \
-    python manage.py runserver && cd ..
-    ```
 
+   ```
+   cd yatube && \
+   python manage.py makemigrations && \
+   python manage.py migrate && \
+   python manage.py prepare_load_data && \
+   python manage.py loaddata dump.json && \
+   python manage.py createsuperuser && \
+   python manage.py runserver && cd ..
+   ```
 5. Сервер запустится локально по адресу: [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
 > **Примечание:** Чтобы остановить сервер Django, используйте комбинацию клавиш `Ctrl+C`.
@@ -69,6 +69,6 @@ git config --global core.autocrlf false
 
 ## Лицензия
 
-Этот проект выпущен под лицензией MIT.
+Этот проект выпущен не под лицензией.
 
 **Автор:** Danielyan Harutyun
