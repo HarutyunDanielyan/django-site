@@ -2,7 +2,7 @@
 
 ## Introduction
 **Project Name:** News Website  
-**Project Objective:** To create a web application for reading, editing, and publishing news articles, showcasing my skills and experience developed as part of the Python Profession course at Armenian Code Academy (ACA).
+**Project Objective:** To create a web application for reading, editing and publishing news articles, showcasing my skills and experience developed as part of the Python Profession course at Armenian Code Academy (ACA).
 
 ## Development Process
 **Project Start Date:** September 19, 2024  
@@ -39,12 +39,12 @@ Throughout the development process, both minor and significant issues arose. I d
 **Documentation Purpose:** This documentation is intended for developers who will work with the project.
 
 ### Application Architecture
-**Overview of the Application:** News Website is a web application for reading, editing, and publishing news articles.
+**Overview of the Application:** News Website is a web application for reading, editing and publishing news articles.
 
 #### Application Components:
 - **Frontend:** HTML, CSS, and Bootstrap for displaying news and forms.
 - **Backend:** Django for handling requests and interacting with the database.
-- **Database:** SQLite for storing news, user, and category data.
+- **Database:** SQLite for storing news, user and category data.
 - **Docker:** Ensures a consistent deployment environment.
 
 ### Installation and Deployment
@@ -87,14 +87,14 @@ For convenience, please follow the copy-and-paste principle: copy the commands f
 
 ## Usage
 ### Instructions for Use
-**Overview:** News Website allows users to view, create, and edit news articles.
+**Overview:** News Website allows users to view, create and edit news articles.
 
 #### Viewing News
 The homepage displays the latest news. Click on the article title to open the full content.
 
 #### Creating a New Article
 1. Click the "Create Article" button.
-2. Fill out the form with the title, content, and category.
+2. Fill out the form with the title, content and category.
 3. Click the "Save" button.
 
 #### Editing and Deleting Articles
