@@ -103,7 +103,7 @@ The homepage displays the latest news. Click on the article title to open the fu
 
 ### Additional Information
 1. **Feedback:** If you have any questions, you can reach out to us through the 
-feedback section on our website or send an email to [danielyan.harutyun@inbox.ru](mailto:danielyan.harutyun@inbox.ru).
+feedback section on our website or send an email to [danielyan.harutyun.home@gmail.com](mailto:danielyan.harutyun.home@gmail.com).
 
 ## License
 This project is released without a license.
